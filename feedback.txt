@@ -1,0 +1,131 @@
+Hi, this is Anita Liu (al877), looking at your Assignment A1!
+
+Please revise your A1 solution as we suggest below. Look at each point and revise
+according to it before going on to the next. When done, resubmit. THEN SUBMIT A REQUEST
+FOR A REGRADE, SAYING SIMPLY THAT YOU RESUBMITTED. This is how we will know to regrade it.
+If we don’t get this regrade request, there will be no easy way for us to know that you
+resubmitted. Be sure you have set your notifications on the CMS so that you receive an
+email when a grade has been changed.
+
+As you can see, you have problems with get_value in toolbox.py, test cases, and main.py.
+
+1. get_value in toolbox.py:
+    You are on the right track by using before_first and after_first as helper functions,
+    but you are violating the preconditions - double check their specs. The parameter keyword
+    of get_value may be a string of length > 1. Can you use your variable 'key' as an argument
+    for before_first?
+
+2. test cases:
+    The procedure 'test_before_first' crashed when called. Double check function specs.
+    Can marker have a length > 1?
+
+3. main.py:
+    Is assigning provide_evidence to a variable necessary? 
+
+There may be other issues with this submission. However, we want you to fix the suggestions
+that we have made first. You should continue to review your files for correctness.
+
+Please READ the above carefully, REVISE carefully, RESUBMIT, and then REQUEST a REGRADE.
+
+===========
+
+Start grading of Submissions/ebc68_mca74/toolbox.py
+
+Grading A1 Functions
+  Grading Part A (before/after functions)
+  Finished Part A (before/after functions)
+
+  Grading Part B (file_to_string)
+  Finished Part B (file_to_string)
+
+  Grading Part C (get_value)
+    PRECONDITION VIOLATION found within `get_value`
+    Traceback (most recent call last):
+  File "a1grade/rubrik.py", line 606, in grade_C
+    func+'('+','.join(repr(x) for x in test)+') is', sfunc(*test), afunc(*test), 4)
+  File "Submissions/ebc68_mca74/toolbox.py", line 141, in get_value
+    after = after_first(s, key)
+  File "a1grade/toolbox.py", line 121, in after_first
+    assert len(marker) == 1, f"marker {repr(marker)} does not have length 1"
+AssertionError: marker 'name:' does not have length 1
+
+    PRECONDITION VIOLATION found within `get_value`
+    Traceback (most recent call last):
+  File "a1grade/rubrik.py", line 606, in grade_C
+    func+'('+','.join(repr(x) for x in test)+') is', sfunc(*test), afunc(*test), 4)
+  File "Submissions/ebc68_mca74/toolbox.py", line 141, in get_value
+    after = after_first(s, key)
+  File "a1grade/toolbox.py", line 121, in after_first
+    assert len(marker) == 1, f"marker {repr(marker)} does not have length 1"
+AssertionError: marker 'time:' does not have length 1
+
+    PRECONDITION VIOLATION found within `get_value`
+    Traceback (most recent call last):
+  File "a1grade/rubrik.py", line 606, in grade_C
+    func+'('+','.join(repr(x) for x in test)+') is', sfunc(*test), afunc(*test), 4)
+  File "Submissions/ebc68_mca74/toolbox.py", line 141, in get_value
+    after = after_first(s, key)
+  File "a1grade/toolbox.py", line 121, in after_first
+    assert len(marker) == 1, f"marker {repr(marker)} does not have length 1"
+AssertionError: marker 'name:' does not have length 1
+
+    PRECONDITION VIOLATION found within `get_value`
+    Traceback (most recent call last):
+  File "a1grade/rubrik.py", line 606, in grade_C
+    func+'('+','.join(repr(x) for x in test)+') is', sfunc(*test), afunc(*test), 4)
+  File "Submissions/ebc68_mca74/toolbox.py", line 141, in get_value
+    after = after_first(s, key)
+  File "a1grade/toolbox.py", line 121, in after_first
+    assert len(marker) == 1, f"marker {repr(marker)} does not have length 1"
+AssertionError: marker 'a:' does not have length 1
+
+  Finished Part C (get_value)
+
+Finished A1 Functions
+
+Grading A1 Test Cases
+  Grading Tests for before/after functions
+    The procedure 'test_before_first' crashed when called.
+    Traceback (most recent call last):
+  File "a1grade/rubrik.py", line 431, in grade_test_A
+    a1test.test_before_first()
+  File "tests.py", line 53, in test_before_first
+    # 2. marker at beginning
+  File "a1grade/scorer.py", line 818, in <lambda>
+    dst = lambda *x: (self.capture(*x), src(*x))[1]
+  File "a1grade/toolbox.py", line 99, in before_first
+    assert len(marker) == 1, f"marker {repr(marker)} does not have length 1"
+AssertionError: marker '+++' does not have length 1
+  Finished Tests for before/after functions
+
+Finished A1 Test Cases
+
+Grading Main script
+  Grading A1 main script
+    The student's output does not match the solution
+    The solution output is:
+    The court will now announce the results:
+    al palanuwech has been found guilty!
+    lenhard thomas is innocent.
+    No evidence found for anne bracy.
+
+
+    The student output is:
+    The court will now announce the results:
+    No evidence found for al palanuwech.
+    lenhard thomas has been found guilty!
+    No evidence found for anne bracy.
+  Finished A1 main script
+
+Finished Main script
+
+Grading style for toolbox.py
+Finished style for toolbox.py
+
+Grading style for tests.py
+Finished style for tests.py
+
+Grading style for main.py
+Finished style for main.py
+
+This assignment requires revisions.

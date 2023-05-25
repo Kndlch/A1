@@ -1,0 +1,60 @@
+Hi, this is Anita Liu (al877), looking at your Assignment A1!
+
+Please revise your A1 solution as we suggest below. Look at each point and revise
+according to it before going on to the next. When done, resubmit. THEN SUBMIT A REQUEST
+FOR A REGRADE, SAYING SIMPLY THAT YOU RESUBMITTED. This is how we will know to regrade it.
+If we don’t get this regrade request, there will be no easy way for us to know that you
+resubmitted. Be sure you have set your notifications on the CMS so that you receive an
+email when a grade has been changed.
+
+Nice work on A1!
+
+Some coding practices to keep in mind:
+1. Write test cases before you implement your functions and test as you go.
+2. Write concise and useful comments.
+3. Start early and ask for help.
+
+===========
+
+Start grading of Submissions/ebc68_mca74/toolbox.py
+
+Grading A1 Functions
+  Grading Part A (before/after functions)
+  Finished Part A (before/after functions)
+
+  Grading Part B (file_to_string)
+  Finished Part B (file_to_string)
+
+  Grading Part C (get_value)
+  Finished Part C (get_value)
+
+Finished A1 Functions
+
+Grading A1 Test Cases
+  Grading Tests for before/after functions
+  Finished Tests for before/after functions
+
+  Grading Tests for file_to_string
+  Finished Tests for file_to_string
+
+  Grading Tests for get_value
+  Finished Tests for get_value
+
+Finished A1 Test Cases
+
+Grading Main script
+  Grading A1 main script
+  Finished A1 main script
+
+Finished Main script
+
+Grading style for toolbox.py
+Finished style for toolbox.py
+
+Grading style for tests.py
+Finished style for tests.py
+
+Grading style for main.py
+Finished style for main.py
+
+Assignment is complete.
